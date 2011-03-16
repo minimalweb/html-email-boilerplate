@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml"><!-- Allows background images in table cells -->
+  <head>
+  <meta charset="UTF-8">
+  <title>Title</title><!-- Shows up if viewed in browser -->
+  
+  <!-- Place CSS here and run the final HTML file through http://premailer.dialect.ca/ to have it moved inline for Gmail. -->
+  <style type="text/css">
+    
+    body {
+      /* prevent WebKit based mobile clients from messing with font sizes */
+      -webkit-text-size-adjust: none;
+      /* Trick Outlook 2007 into displaying background image */
+      background-image: url('');
+      background-repeat: repeat-y no-repeat;
+      background-position: top center;
+      background-color: #fff;
+    }
+    
+  	img {
+  	  /* Removes Hotmail's inexplicable image padding. */
+  	  display: block;
+  	  /* Prevent border for images inside of links */
+  	  border: none;
+  	}
+  
+    .ReadMsgBody {
+      /* Fixes Hotmail's background color and alignment bug. */
+      width: 100%;
+    }
+    
+    .ExternalClass {
+      /* Fixes Hotmail's background color and alignment bug. */
+      width: 100%;
+    }
+  
+    v:* {
+      /* Allows background images in table cells.
+      See: http://www.campaignmonitor.com/blog/post/3192/add-a-background-image-to-individual-table-cells/
+      for details. */
+      behavior: url(#default#VML);
+      display: inline-block;
+    }
+    
+  </style>
+  
+  </head>
+  <body>
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+      <tr>
+         <td align="center">
+           <table cellspacing="0" cellpadding="0" border="0" width="600">
+             <tr>
+               <td>email content</td>
+             </tr>
+           </table>
+         </td>
+      </tr>
+    </table>
+  </body>
+</html>
